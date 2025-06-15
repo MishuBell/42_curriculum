@@ -28,9 +28,46 @@ int main()
     printf("Value of y is %d \n", *ptrY);
 
     int a = 6, b = 9;
-    if (a == 6 && b == 9)
+    
+    //No curlies
+    if (a == 7 && b == 9)
+    printf("69 \n");
+    else 
+    printf("What? \n");
+
+    //Curlies 
+    if (a == 6 || b == 9);
     {
-        printf("\n 69");
+        printf("A is %d \n", a);
+        printf("B is %d \n", b);
     }
 
+    //Points to our char array
+    char *adjective = "frightening";
+    int horses = 0;
+    switch(horses)
+    {
+        case 1:
+            printf("One honsre");
+            break;
+        case 2:
+            printf("Two honsre");
+            break;  
+        default:
+            printf("Horses are generally %s", adjective);
+    }
+
+    
+    printf("");
+    int wh = 1;
+    while(wh < 10)
+    {
+        wh++;
+        printf("WH is %i \n", wh);
+    }
+
+    for (int i = 0, a = 10; i <= a; i++)
+    {
+        printf("I is %i \n", i); 
+    }
 }
