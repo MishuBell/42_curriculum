@@ -5,6 +5,7 @@
 *.o
 *.obj
 *.bat
+*.pfd
 
 # Ignore build directories
 build
