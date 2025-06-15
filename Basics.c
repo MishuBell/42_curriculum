@@ -16,14 +16,21 @@ int main()
     int x = 100;
     int y = 500;
 
-    printf("Adress of x is %p", (void*)&x);
-    printf("Adress of y is %p", (void*)&y);
+    printf("Adress of x is %p \n", (void*)&x);
+    printf("Adress of y is %p \n", (void*)&y);
 
     //Pointer initialization with the adress of a variable
     //Access the value of a variable using a pointer
-    int* ptrX;
-    int* ptrY;
+    int* ptrX = &x;
+    int* ptrY = &y;
 
-    printf("Value of x is %d", *ptrX);
-    printf("Value of y is %d", *ptrY);
+    printf("Value of x is %d \n", *ptrX);
+    printf("Value of y is %d \n", *ptrY);
+
+    int a = 6, b = 9;
+    if (a == 6 && b == 9)
+    {
+        printf("\n 69");
+    }
+
 }

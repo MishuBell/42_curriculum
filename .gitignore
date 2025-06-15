@@ -1,9 +1,10 @@
 # Ignore compiled executables
-.exe
+*.exe
 
 # Ignore object files
-.o
-.obj
+*.o
+*.obj
+*.bat
 
 # Ignore build directories
 build
