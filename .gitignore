@@ -6,6 +6,7 @@
 *.obj
 *.bat
 *.pdf
+*.png
 
 # Ignore build directories
 build
