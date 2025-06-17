@@ -1,4 +1,4 @@
-
+#include "libft.h"
 
 /*
 Returns true if c is an alphabetic character (a letter). If islower or isupper is true 
