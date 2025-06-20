@@ -13,6 +13,9 @@ int main(void)
     int input_1 = '!';
     printf("Output is %i \n", ft_isalnum(input_1));
 
+    char input_d = '\n';
+    printf("Output is: %i \n", ft_isprint(input_d));
+
     ascii_table_num();
     return 0;
 }
