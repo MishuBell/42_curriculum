@@ -7,6 +7,7 @@
 *.bat
 *.pdf
 *.png
+*.sh
 
 # Ignore build directories
 build
