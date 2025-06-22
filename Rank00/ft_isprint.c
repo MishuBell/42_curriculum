@@ -1,7 +1,9 @@
 #include "libft.h"
 /*
-Returns true if c is a printing character. Printing characters include all the graphic
- characters, plus the space (‘ ’) character
+Gibt true zurück, wenn c ein druckbares Zeichen ist. Das sind alle lesbaren zeichen und das Leerzeichen (' ')
+
+(unsigned)c         Cast zu unsigned, um sicherzustellen, dass der Wert positiv ist
+Bereich:            ASCII-Werte von 32 (Leerzeichen) bis 126 (‚~‘)
 */
 
 int ft_isprint(int c)

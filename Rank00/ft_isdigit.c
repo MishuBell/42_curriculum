@@ -1,11 +1,12 @@
 #include "libft.h"
 /*
 Returns true if c is a decimal digit (‘0’ through ‘9’).
+Gibt true zurück, wenn c eine Dezimalziffer ist ('0' bis '9')
 
-(unsigned c)c       cast to unsigned, to guarantee a positive value
-c - '0'             The ASCII value of '0' is 48
-                    Any ASCII char from '0' to '9', is subtracted by '0' results in its integer representation
-                    '7' (55) - '0' (48) = 7
+(unsigned)c         Cast zu unsigned, um sicherzustellen, dass der Wert positiv ist
+c - '0'             Der ASCII-Wert von '0' ist 48
+                    Jeder ASCII-Wert zwischen '0' und '9', der von '0' subtrahiert wird, ergibt seine numerische Darstellung
+                    Beispiel: '7' (55) - '0' (48) = 7
 
 */
 

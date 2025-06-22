@@ -1,8 +1,8 @@
 #include "libft.h"
 
 /*
-Returns true if c is a 7-bit unsigned char value that fits into the US/UK ASCII
- character set. This function is a BSD extension and is also an SVID extension.
+Gibt true zurück, wenn der übergebene Wert c ein 7-Bit ASCII-Symbol ist 
+Dies umfasst alle Zeichen im Bereich von 0 bis 127, die Teil des US/UK ASCII-Zeichensatzes sind (Steuerzeichen, Buchstabe, Zahl oder Sonderzeichen)
 */
 
 int ft_isascii(int c)

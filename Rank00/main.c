@@ -15,8 +15,11 @@ int main(void)
 
     char input_d = '\n';
     printf("Output is: %i \n", ft_isprint(input_d));
+    
+    char *input_e = "Abcdefghijklmnopqrstuvwxyz";
+    printf("Output is: %i", ft_strlen(input_e));
 
-    ascii_table_num();
+    
     return 0;
 }
 
