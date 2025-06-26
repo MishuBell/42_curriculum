@@ -13,4 +13,7 @@ int ft_isalnum(int c);
 int ft_isprint(int c);
 int ft_strlen(char *s);
 
+
+int display_values(void);
+
 #endif
