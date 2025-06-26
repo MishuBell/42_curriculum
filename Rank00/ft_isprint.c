@@ -2,12 +2,13 @@
 /*
 Gibt true zurück, wenn c ein druckbares Zeichen ist. Das sind alle lesbaren zeichen und das Leerzeichen (' ')
 
-(unsigned)c         Cast zu unsigned, um sicherzustellen, dass der Wert positiv ist
-Bereich:            ASCII-Werte von 32 (Leerzeichen) bis 126 (‚~‘)
+(unsigned)c-0x20
+    Subtrahiere den 'min' Wert des Bereichs von c 
+< 0x5F
+    Prüfe ob c kleiner ist als der 'max' Wert des Bereichs
 */
 
 int ft_isprint(int c)
 {
-    int unsigned_c = (unsigned)c;
-    return (unsigned_c >= 32 && unsigned_c <= 126);
+    return (unsigned)c-0x20 < 0x5F;
 }
